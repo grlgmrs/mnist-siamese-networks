@@ -11,7 +11,7 @@ def load_mnist_images(filename):
     return data.reshape(-1, 28, 28)
 
 
-file_path = "train-images.idx3-ubyte"
+file_path = "imnist_dataset.idx3-ubyte"
 
 save_dir = "./examples/"
 os.makedirs(save_dir, exist_ok=True)
