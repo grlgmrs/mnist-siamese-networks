@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.profiles.linux": {
+    "zshWithCudaEnv": {
+      "path": "zsh",
+      "args": [
+        "-c",
+        "source ${workspaceFolder}/.vscode/export_env.sh && exec zsh"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zshWithCudaEnv"
+}

@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# IDE/Editor folders
+.idea/
+*.sublime-*
+
+# Log and database files
+*.log
+*.sqlite
+
+# Environment files
+.env
+.flaskenv
+
+# Misc
+node_modules/
+dist/
+build/
+*.egg-info/
+*.bak
+*.swp
+
+examples/*
